@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+.card {
+  height: 550px;
+  width: 450px;
+  margin: 0 auto;
+  background-color: cornsilk;
+  box-shadow: 2px 4px 30px;
+}
+
+.card .card-image img {
+  width: 450px;
+  height: 350px;
+}
+
+.card-info-title {
+  font-size: 40px;
+  margin: 0;
+}
+
+.card-info-description {
+  font-size: 30px;
+  margin: 0 0 15px 0;
+}
+
+.card-links a {
+  font-size: 20px;
+}
+
+.card-links a:visited,
+.card-links a:link,
+.card:-webkit-any-link {
+  color: peru;
+}
