@@ -73,6 +73,10 @@ h2 {
   font-size: large;
 }
 
+.button:hover {
+  cursor: default;
+}
+
 .full:hover.green {
   background-color: #00b060;
   border-color: #00b060;
