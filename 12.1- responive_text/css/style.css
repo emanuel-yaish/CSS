@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.paragraph-1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.paragraph-2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.paragraph-3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.paragraph-4 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.paragraph-5 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+    text-decoration: none;
+  }
+
+  .paragraph-1 {
+    font-size: 2.5rem;
+    background-color: darkcyan;
+    color: white;
+    padding: 15px;
+  }
+
+  .paragraph-2 {
+    font-size: 2.5rem;
+    background-color: darkgray;
+    color: black;
+    padding: 15px;
+  }
+
+  .paragraph-3 {
+    font-size: 2.5rem;
+    background-color: darkcyan;
+    color: white;
+    padding: 15px;
+  }
+
+  .paragraph-4 {
+    font-size: 2.5rem;
+    background-color: darkgray;
+    color: black;
+    padding: 15px;
+  }
+
+  .paragraph-5 {
+    font-size: 2.5rem;
+    background-color: darkcyan;
+    color: white;
+    padding: 15px;
+  }
+}
