@@ -3,6 +3,16 @@
   height: 300px;
 }
 
+.container-before div {
+  width: 300px;
+  height: 300px;
+}
+
+.container-before {
+  background-color: lightyellow;
+  display: flex;
+}
+
 .container {
   background-color: lightyellow;
   display: flex;
