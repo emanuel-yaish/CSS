@@ -1,0 +1,34 @@
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.container-before div {
+  width: 100px;
+  height: 100px;
+}
+
+.container-before {
+  background-color: lightyellow;
+  display: flex;
+}
+
+.container {
+  background-color: lightyellow;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
