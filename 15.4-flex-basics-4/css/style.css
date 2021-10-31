@@ -1,0 +1,40 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.container-before div {
+  width: 100px;
+  height: 100px;
+}
+
+.container-before {
+  background-color: lightyellow;
+  display: flex;
+}
+
+.container {
+  background-color: lightyellow;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
