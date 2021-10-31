@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  width: 100vw;
+}
+
+#main-nav {
+  position: static;
+  z-index: 0;
+  box-shadow: none;
+  width: 100vw;
+}
+
+.navbar li {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.main-header {
+  font-size: 2.2rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+.card {
+  width: 90%;
+  margin: 3rem auto;
+  border: none;
+  box-shadow: none;
+  display: block;
+  float: none;
+  font-size: 2.5rem;
+  padding: 1.5rem;
+  overflow: auto;
+}
+
+.card-header {
+  font-size: 3rem;
+}
+
+.card-image img {
+  width: 98%;
+}
