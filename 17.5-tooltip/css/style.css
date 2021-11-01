@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+article {
+  max-width: 980px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover::before {
+  content: attr(data-tooltip);
+  border-radius: 15px;
+  background-color: yellow;
+  color: crimson;
+  position: absolute;
+  width: 300px;
+  top: -40px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25;
+}
+
+a:hover::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid yellow;
+}
