@@ -32,6 +32,7 @@ p {
 
 .logo {
   text-transform: uppercase;
+  font-size: 30px;
 }
 
 .top-nav a {
