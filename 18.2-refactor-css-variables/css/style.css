@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+/* colors */
+:root {
+  --main-bg-color: #e6e6fa;
+  --links-color: #ea20f1;
+  --primary-color: #4b0082;
+  --secondary-color: #be89e4;
+}
+
+/* ELEMENTS */
+
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+  padding: 0;
+  font-family: "Zen Kurenaido", sans-serif;
+  padding-top: 40px;
+}
+
+a {
+  color: var(--links-color);
+}
+
+/* ID'S */
+
+#about {
+  text-align: center;
+}
+
+#main-nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+  box-shadow: 1px 1px 10px 8px black;
+}
+
+/* Classes */
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  opacity: 1;
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar li a:hover {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 50px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.card {
+  width: 485px;
+  margin: 50px;
+  border: 1px solid black;
+  box-shadow: 2px 4px 16px black;
+  float: left;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  padding: 15px 15px 50px 15px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-image {
+  margin: 0;
+}
+
+.card-image img {
+  width: 480px;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list li {
+  float: left;
+  list-style-position: inside;
+  margin-right: 15px;
+}
+
+.fa {
+  margin-right: 10px;
+}
