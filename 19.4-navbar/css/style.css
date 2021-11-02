@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6fe01;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin: 30px;
+  padding: 15px 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.slide-borders::before,
+.slide-borders::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  transition: all 1s ease-in-out;
+}
+
+.slide-borders::before {
+  transform: translate(-150%);
+  top: 0;
+  left: 0;
+}
+
+.slide-borders::after {
+  transform: translate(150%);
+  bottom: 0;
+  right: 0;
+}
+
+.slide-borders:hover::before,
+.slide-borders:hover::after {
+  transform: translate(0);
+}
