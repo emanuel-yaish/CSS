@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.red-box {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  margin: 200px auto;
+  position: relative;
+}
+
+.red-box::before {
+  content: "";
+  height: 400px;
+  width: 400px;
+  background-color: royalblue;
+  position: absolute;
+  transform: translate(-400px);
+  transition: all 1s ease-in-out;
+}
+
+.red-box:hover::before {
+  transform: translate(0);
+  background-color: green;
+}
