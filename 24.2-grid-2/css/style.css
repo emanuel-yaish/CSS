@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 5vh 5vh 5vh;
+  grid-template-areas:
+    "item-1 item-1 item-1 item-1"
+    "item-2 item-2 item-3 item-3"
+    "item-2 item-2 item-4 item-6";
+  gap: 15px;
+}
+
+.item-1 {
+  background-color: red;
+  grid-area: item-1;
+}
+.item-2 {
+  background-color: blue;
+  grid-area: item-2;
+}
+.item-3 {
+  background-color: green;
+  grid-area: item-3;
+}
+.item-4 {
+  background-color: purple;
+  grid-area: item-4;
+}
+
+.item-5 {
+  background-color: purple;
+  grid-area: item-6;
+}
