@@ -1,0 +1,107 @@
+.galery-container {
+  height: 90vh;
+  display: grid;
+  grid-template-areas:
+    "img1 img1 img2 img2 img2 img3 img4 img4"
+    "img1 img1 img2 img2 img2 img3 img4 img4"
+    "img5 img5 img2 img2 img2 img8 img8 img9"
+    "img5 img5 img6 img6 img7 img8 img8 img9"
+    "img5 img5 img6 img6 img13 img13 img13 img9"
+    "img10 img11 img11 img12 img13 img13 img13 img14"
+    "img10 img11 img11 img12 img13 img13 img13 img14";
+  gap: 1rem;
+  /* grid-template-columns: repeat(8, 150px);
+  grid-template-columns: repeat(7, 150px); */
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition: all 1s;
+}
+.box img:hover {
+  position: relative;
+  top: -5%;
+  left: -5%;
+  transform: scale(1.3);
+  z-index: 555;
+}
+.gal-1 {
+  grid-area: img1;
+  background-image: url(images/gal-1.jpeg);
+}
+.gal-2 {
+  grid-area: img2;
+  background-image: url(images/gal-2.jpeg);
+}
+.gal-3 {
+  grid-area: img3;
+  background-image: url(images/gal-3.jpeg);
+}
+.gal-4 {
+  grid-area: img4;
+  background-image: url(images/gal-4.jpeg);
+}
+.gal-5 {
+  grid-area: img5;
+  background-image: url(images/gal-5.jpeg);
+}
+.gal-6 {
+  grid-area: img6;
+  background-image: url(images/gal-6.jpeg);
+}
+.gal-7 {
+  grid-area: img7;
+  background-image: url(images/gal-7.jpeg);
+}
+.gal-8 {
+  grid-area: img8;
+  background-image: url(images/gal-8.jpeg);
+}
+.gal-9 {
+  grid-area: img9;
+  background-image: url(images/gal-9.jpeg);
+}
+.gal-10 {
+  grid-area: img10;
+  background-image: url(images/gal-10.jpeg);
+}
+.gal-11 {
+  grid-area: img11;
+  background-image: url(images/gal-11.jpeg);
+}
+.gal-12 {
+  grid-area: img12;
+  background-image: url(images/gal-12.jpeg);
+}
+.gal-13 {
+  grid-area: img13;
+  background-image: url(images/gal-13.jpeg);
+}
+.gal-14 {
+  grid-area: img14;
+  background-image: url(images/gal-14.jpeg);
+}
+@media (max-width: 500px) {
+  .box {
+    height: 40vh;
+  }
+
+  .galery-container {
+    grid-template-areas:
+      "img1"
+      "img2"
+      "img3"
+      "img4"
+      "img5"
+      "img6"
+      "img7"
+      "img8"
+      "img9"
+      "img10"
+      "img11"
+      "img12"
+      "img13"
+      "img14";
+  }
+}
